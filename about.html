@@ -1,0 +1,73 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VersezTessile</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>   
+    </section>
+    
+    
+<!------- about us content -------->
+    
+<section class="about-us">
+    <div class="row">
+        <div class="about-col">
+            <h1>We are India's First Website to Provide Endless Offers</h1>     
+            <p>"Welcome to the world's first full-time offer website, where the thrill of savings is not limited to specific events or seasons it's a constant celebration! Explore a digital marketplace dedicated to bringing you unbeatable offers and discounts 24/7, 365 days a year.<br>Our revolutionary platform redefines the way you shop, providing a continuous stream of exclusive deals on a vast array of products. From fashion and electronics to home goods and beyond, we're committed to delivering unparalleled value every day.<br>Say goodbye to waiting for special occasions – embrace a lifestyle of savings and indulge in a perpetual shopping spree. Join us on the forefront of this groundbreaking experience, where the joy of incredible offers knows no bounds. Your savings journey begins now, with the world's first full-time offer website!"
+
+</p>
+            <a href="https://www.youtube.com/c/EasyTutorialsVideo?sub_confirmation=1" class="hero-btn red-btn">EXPOLER NOW</a>
+        </div>
+        <div class="about-col">
+            <img src="images/about.jpg">
+        </div>
+    </div>    
+</section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>We at Versez Tessile are driven by a set of core values that serve as the foundation of our identity and guide our daily actions. <br>These values shape our interactions with clients, partners, and each other, fostering a culture of excellence, collaboration, and innovation.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    

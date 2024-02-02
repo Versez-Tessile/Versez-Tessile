@@ -1,0 +1,99 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VersezTessile</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    
+    
+<!---------- course ----------->
+    
+    <section class="course">
+        <h1>Services We Offer</h1>
+        <div class="row">
+            <div class="course-col">
+                <h3>Discounts and Sales</h3>
+                <p>"Enjoy unbeatable savings with our Discount and Sales! Shop now for exclusive deals on your favorite clothing items. Limited-time offers, so don't miss out on the style steals!".</p>
+            </div>
+            <div class="course-col">
+                <h3>Loyalty Program Rewards</h3>
+                <p>"Unlock exclusive Twilight treats perks with our Loyalty Program! Earn extra discounts, early access to deals, and special rewards. It's our way of saying thank you for being a valued customer. Shop with us and enjoy the VIP treatment this SixBarSeven!"</p>
+            </div>
+            <div class="course-col">
+                <h3>VIP Access</h3>
+                <p>"Experience Twilight Treats like a VIP! Gain exclusive early access to jaw-dropping deals, limited editions, and unbeatable discounts. Elevate your shopping with priority treatment – because you deserve the best. Join us for VIP Access this Black Friday and shop in style!"</p>
+            </div>
+        </div>
+    </section>
+    
+<!---------- Facilities ---------->
+    
+    <section class="facility">
+        <h1>Our Facilities</h1>
+            <div class="row">
+                <div class="facility-col">
+                    <img src="images/wish.png">
+                    <h3>Wish List Alerts</h3>
+                    <p>Never miss out on your favorites. Receive instant alerts when items from your wish list go on sale.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/express.png">
+                    <h3>Express Checkout</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque aliquet turpis nulla.</p>
+                </div>
+                <div class="facility-col">
+                    <img src="images/give.png">
+                    <h3>Social Media Contests</h3>
+                    <p>Participate in exciting contests on social media platforms to win additional discounts or exclusive items.</p>
+                </div>
+            </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>We at Versez Tessile are driven by a set of core values that serve as the foundation of our identity and guide our daily actions. <br>These values shape our interactions with clients, partners, and each other, fostering a culture of excellence, collaboration, and innovation.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>  
+    
+</body>
+</html>    

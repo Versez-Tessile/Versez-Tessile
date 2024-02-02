@@ -1,0 +1,106 @@
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>VersezTessile</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="images/logo.png"></a>
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">SERVICES</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+    </section>
+    
+<!---------- Blog Page Content ---------->
+    
+    <section class="blog-content">
+    <div class="row">
+    <div class="blog-left">
+        <img src="images/certificate.png">
+        
+        <p><b>"Step into the exhilarating realm of Black Friday, where savings and style collide in an electrifying shopping extravaganza. As the anticipation builds, our exclusive facilities and services promise an unparalleled experience. From express checkout for swift transactions to a virtual fitting room that lets you try before you buy, we've curated a seamless journey for every shopper. Enjoy VIP access to early bird deals, real-time stock updates, and personalized shopper assistance. Whether you're navigating through our mobile app exclusives or relishing in the thrill of wish list alerts, this Black Friday is all about you. Join us for a day of curated collections, loyalty program rewards, and a myriad of other surprises that elevate your shopping spree. Dive into the festivities and redefine your Black Friday experience with a perfect blend of savings and sophistication."</b></p>
+        
+        <div class="comment-box">
+            <h3>Leave a comment</h3>
+            <form class="comment-form">
+                    <input type="text" placeholder="Enter Name">
+                    <input type="email" placeholder="Enter email">
+                    <textarea rows="5" placeholder="Your Comment"></textarea>
+                    <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+            </form>
+        </div>
+    </div>
+        
+    <div class="blog-right">
+        
+        
+            <h3>Collections</h3>
+            <div>
+                <span>Men's Wear</span>
+            </div>
+            <div>
+                <span>Wo-men's Wear</span>
+            </div>
+            <div>
+                <span>Gym Wear</span>
+            </div>
+            <div>
+                <span>Night Wear</span>
+            </div>
+            <div>
+                <span>Ocattional Wear</span>
+            </div>
+            <div>
+                <span>Traditional Wear</span>
+            </div>
+            <div>
+                <span>Casual Wear</span>
+            </div>
+           
+        </div> 
+    
+    </div>
+    </section>
+    
+<!-------- footer ---------->
+
+<section class="footer">
+        <h4>About Us</h4>
+        <p>We at Versez Tessile are driven by a set of core values that serve as the foundation of our identity and guide our daily actions. <br>These values shape our interactions with clients, partners, and each other, fostering a culture of excellence, collaboration, and innovation.</p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-linkedin"></i>
+        </div>
+</section>    
+  
+  
+<!----JavaScript for toggle menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script> 
+    
+</body>
+</html>    
